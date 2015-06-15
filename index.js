@@ -50,15 +50,8 @@ module.exports.buildGroups = function(cells) {
     }
   }
 
-  // for (i = 0; i < 9; i++) {
-  //   for (j = 0; j < 9; j++) {
-  //     matrix[i + (j % 3)][j] = cells[(i * 9) + j];
-  //   }
-  // }
-
   return matrix;
 }
-
 
 module.exports.solve = function() {
   // TODO
