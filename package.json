@@ -1,0 +1,16 @@
+{
+  "name": "sudoku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "`npm bin`/mocha"
+  },
+  "author": "Erin Call",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.0.0",
+    "lodash": "^3.9.3",
+    "mocha": "^2.2.5"
+  }
+}
